@@ -7,7 +7,7 @@ body{
 }
 #canvas{
     background: beige;
-    cursor: url("src/images/cur762.cur"),auto;
+    cursor: url("../images/pen.cur"),auto;
     border: #000000 solid 2px;
     float: left;
 }

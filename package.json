@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/PGuardini/canvasDraw/issues"
   },
-  "homepage": "https://github.com/PGuardini/canvasDraw#readme"
+  "homepage": "https://github.com/PGuardini/canvasDraw#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-uglify": "^3.0.0"
+  }
 }
