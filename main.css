@@ -10,14 +10,12 @@ body{
     cursor: url("src/images/cur762.cur"),auto;
     border: #000000 solid 2px;
     float: left;
-    margin-left: 15%;
 }
 .clean{
     clear: both;
 }
 #button-panel{
     float: left;
-    margin-left: 15%;
 }
 .up{
     overflow-y: hidden;
