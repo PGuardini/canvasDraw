@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/*"azo-sans-web",sans-serif*/
+body{
+    margin: 0%;
+    font-family: 'Roboto', sans-serif !important;
+    background:#383434; 
+}
+#canvas{
+    background: beige;
+    cursor: url("src/images/cur762.cur"),auto;
+    border: #000000 solid 2px;
+    float: left;
+    margin-left: 15%;
+}
+.clean{
+    clear: both;
+}
+#button-panel{
+    float: left;
+    margin-left: 15%;
+}
+.up{
+    overflow-y: hidden;
+	max-height: 500%; /* approximate max height */
+
+	transition-property: all;
+	transition-duration: .5s;
+	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+.up.close{
+    max-height: 0;
+}
+#fall{
+    width: 100%;
+    background: #000000;
+    z-index: 1024;
+    opacity: 0.95;
+    height: 100%;
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+@keyframes rainbow{
+    0%{
+        background: #3cc238;
+    }
+    15%{
+        background: #ffeb35;
+    }
+    30%{
+        background: #ff8e24;
+    }
+    45%{
+        background: #da1111;
+    }
+    60%{
+        background: #ad29a2;
+    }
+    75%{
+        background: #6d38c2;
+    }
+    90%{
+        background: #385dc2;
+    }
+    100%{
+        background: #38c294;
+    }
+}
+#start{
+    height: 3rem;
+    width: 10rem;
+    border: white solid 2px;
+    margin-top: 2%;
+    color: white;
+    animation: rainbow 15s infinite ease;
+    cursor: pointer;  
+}
+.mainButtons{
+    width: 5rem;
+    height: 3rem;
+    background: #000000;
+    color: white;
+    border: white double 2px;
+}
