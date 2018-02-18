@@ -1,5 +1,3 @@
-window.onload = function(){
-    
     var width = 500;//getElementById('width').value;
     var height = 300;//getElementById('height').value;
 
@@ -25,4 +23,7 @@ window.onload = function(){
             ctx.stroke();
         }
     }
-}
+    function clean(){
+        ctx.clearRect(0,0,width,height);
+        ctx.beginPath();
+    }
