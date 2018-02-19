@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="build/css/main.css" />
+</head>
+<body>
+    <header id="fall" class="up">
+        <div>
+            <h1>Welcome to CanvasDraw</h1>
+            <p>I wish you a good experience drawing with my site ;)</p>
+            <p>Press Start to draw in canvas</p>
+            <button id="start" onclick="fallBackground()">START</button>
+        </div>
+    </header>
+    <canvas id="canvas"></canvas>
+    <div class="clean"></div>
+    <div id="button-panel">
+        <button onclick="clean()" class="mainButtons">Clean</button>
+        <input type="color" name="color" id="color">
+        <button class="mainButtons" onclick="color()">Color Save</button>
+        <button class="mainButtons" onclick="eraser()">Eraser</button>
+    </div>
+    <!--
+    <input type="number" value="500" id='width'>
+    <input type="number" value="300" id="height">
+    -->
+    <script src="src/js/main.js"></script>
+</body>
+</html>

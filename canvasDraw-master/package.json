@@ -1,0 +1,25 @@
+{
+  "name": "canvas_draw",
+  "version": "1.2.0",
+  "description": "this is a small project to painting in screen",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PGuardini/canvasDraw.git"
+  },
+  "author": "Pedro Gabriel Gabiatti Guardini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PGuardini/canvasDraw/issues"
+  },
+  "homepage": "https://github.com/PGuardini/canvasDraw#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-uglify": "^3.0.0"
+  }
+}
