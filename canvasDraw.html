@@ -20,6 +20,13 @@
     <div class="clean"></div>
     <div id="button-panel">
         <button onclick="clean()" class="mainButtons">Clean</button>
+        <button onclick="pen()" class="mainButtons">Pen</button>
+        <input type="color" name="color" id="color" oninput="color()">
+        <button class="mainButtons" onclick="eraser()">Eraser</button>
+        <label for="size" style="color:white;">1</label>
+        <input type="range" value='1' min="1" max="20" id="sizeBrush" name="size" onchange="resize()">
+        <label for="size" style="color:white;">20</label>
+        <label for="size" style="color:white;" id="current"></label>
     </div>
     <!--
     <input type="number" value="500" id='width'>

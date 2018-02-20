@@ -31,3 +31,34 @@ function clean(){
     ctx.clearRect(0,0,width,height);
     ctx.beginPath();
 }
+//change color
+
+function color(){
+	ctx.beginPath();
+	var color = document.getElementById("color");
+	var hex = color.value;
+	ctx.strokeStyle = hex;
+	ctx.closePath();
+}
+
+function eraser(){
+	ctx.beginPath();
+	ctx.strokeStyle = "#F5F5DC";
+	ctx.closePath();
+}
+function resize(){
+    ctx.beginPath();
+    var change = document.getElementById("sizeBrush");
+    var size = change.value;
+    document.getElementById("current").innerHTML = "Current size:"+size;
+    ctx.lineWidth = size;
+    ctx.closePath();
+}
+function pen(){
+    ctx.beginPath();
+    var color = document.getElementById("color");
+	var hex = color.value;
+    ctx.strokeStyle = hex;
+    ctx.closePath();
+}
+//see later http://perfectionkills.com/exploring-canvas-drawing-techniques/
